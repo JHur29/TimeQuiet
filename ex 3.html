@@ -1,0 +1,184 @@
+<html>
+<head><title> a good time that is quiet : TimeQuiet </title><head>
+<body class="body-layout" oncontextmenu="return false" ondragstart="return false" onselectstart="return false" data-new-gr-c-s-check-loaded="14.977.0">
+		<div id="fullpage">
+		<div class="section active header on" id="assign">
+			<div class="domain">
+				<h1>사람을 이해하는 서비스 <span> TimeQuiet </span> 를 이용해 보세요!</h1>
+			</div>
+			<div class="content">
+				<div class="text">
+					<p>
+						축하합니다. 사용자 계정이 성공적으로 생성되었습니다.
+					</p>
+					<h2>누군가의 <span>성격 유형</span>을 <br>추측해 보세요!</h2>
+				</div>
+			</div>
+			<div class="star star1">
+				<div class="core"></div>
+			</div>
+			<div class="star star2">
+				<div class="core"></div>
+			</div>
+			<div class="star star3">
+				<div class="core"></div>
+			</div>
+		</div>
+		<div class="section con1" id="merits">
+			<h3>
+				TimeQuiet에서는 타인을 판단하지 않으면서 타인의 성격을 예측할 수 있어요.
+			</h3>
+			<div class="container">
+				<article class="box merit-box">
+					<div class="inner">
+						<div class="merits">
+							<div class="merit">
+								<div class="circle">
+									<img src="assets/images/icon1.png" alt="">
+								</div>
+								<h4>맞춤 제작</h4>
+								<p>다양한 업종에 맞는 고퀄리티<br>홈페이지를 만들어 드립니다.</p>
+							</div>
+							<div class="merit">
+								<div class="circle">
+								<img src="assets/images/icon2.png" alt="">
+								</div>
+								<h4>빠른 제작</h4>
+								<p>10일이면 멋진 회사<br>홈페이지가 만들어 집니다.</p>
+							</div>
+							<div class="merit">
+								<div class="circle">
+								<img src="assets/images/icon3.png" alt="">
+								</div>
+								<h4>부담 없는 가격</h4>
+								<p>거품 없는 가격으로<br>비용 부담을 덜어드립니다.</p>
+							</div>
+							<div class="merit">
+								<div class="circle">
+								<img src="assets/images/icon4.png" alt="">
+								</div>
+								<h4>유지보수 무상지원</h4>
+								<p>제작만해도 횟수제한, 추가비용 <br>없이 유지보수를 해드립니다. <br><small style="opacity:.8;line-height:1.2">(Basic 기준)</small></p>
+							</div>
+						</div>
+					    <a href="https://www.10page.co.kr/hp/intro?utm_source=mailplug&amp;utm_medium=parkingpage&amp;utm_campaign=intro&amp;utm_content=more" target="_blank" class="btn more">more</a>
+					</div>
+				</article>
+				<article class="box refer-box">
+					<div class="inner">
+						<h4>제작 사례를 확인해보세요</h4>
+						<div class="refer-slide-wrap">
+							<div class="refer-slide">
+								<div class="item" data-caption="아산장편한내과" style="background-image:url(https://10page.co.kr/asset/upload/bbs/102/0136780001583750322);"></div>
+							</div>
+							<p class="slide-caption">아산장편한내과</p>
+						</div>
+                        <a href="https://www.10page.co.kr/hp/portfolio?utm_source=mailplug&amp;utm_medium=parkingpage&amp;utm_campaign=portfolio&amp;utm_content=more" target="_blank" class="btn more">more</a>
+					</div>
+				</article>
+			</div>
+		</div>
+	</div>
+<div class="fixed_footer pc on">
+    <div class="container">
+        <div class="row">
+				<div class="col center_con dayoff">
+                <p>
+                    전화 상담 시간은 평일 오전 10:00 ~ 오후 07:00 입니다.<br>
+                    문의사항은 <strong class="text_blue">우측의 버튼을 클릭</strong> 또는 <strong class="text_blue">help@10page.co.kr</strong> 언제든 편하게 남겨주세요.
+                </p>
+            </div>
+		 		 <div class="col right_con">
+                <ul>
+                    <li><a target="_blank" href="https://10page.co.kr/hp/inquiry" class="more_btn">제작 문의</a></li>
+                    <li><a target="_blank" href="https://10page.co.kr/hp/estimate" class="more_btn">견적 문의</a></li>
+                    <li><a target="_blank" href="https://10page.co.kr/hp/maintenance" class="more_btn">유지보수 신청</a></li>
+                    <li class="top_li"><a href="#" id="scroll_top"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="footer_top">
+        <div class="container">
+            <p class="tel"> <a href="mailto:help@10page.co.kr">help@10page.co.kr</a></p>
+            <p class="des">
+                문의 사항 메일 보내기
+            </p>
+        </div>
+    </div>
+<script>
+    var body_h = $('body').outerHeight();
+    $(window).scroll(function() {
+        var window_t = $(window).scrollTop();
+        var window_h = $(window).outerHeight();
+        var baseline = body_h - window_h - 10;
+
+        if (window_t == 0) {
+            $('.fixed_footer').removeClass('on');
+            $('.fixed_footer').removeClass('static');
+        } else if (window_t > 0 && window_t < baseline) {
+            $('.fixed_footer').addClass('on');
+            $('.fixed_footer').removeClass('static');
+        }
+    });
+    $(function() {
+		$('.header').addClass('on');
+		//스크롤 탑 버튼
+        $('#scroll_top').click(function(e) {
+            e.preventDefault();
+            $('body, html').animate({
+                scrollTop: 0
+            }, 1000);
+        });
+    });
+    </script>
+	<script>
+		document.documentElement.addEventListener('touchstart', function (event) {
+			if (event.touches.length > 1) {
+				event.preventDefault();
+			}
+		 }, false);
+	</script>
+	<script>
+		$(function() {
+			$('[data-url]').on('click', function() {
+				window.open($(this).attr('data-url'));
+			})
+
+			$('.call_num').on('click', function() {
+				if($(window).width() < 992) {
+					location.href = "tel:15221040";
+				}
+			})
+		})
+
+		$(document).ready(function() {
+						setTimeout(function() {
+				$('html,body').animate({
+					scrollTop: $('#fullpage > #merits').offset().top
+				}, 1000);
+
+			// 	$('#fullpage').addClass('call-show');
+			// 	$('#call').addClass('show');
+			}, 3000);
+					})
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-48873337-3"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-48873337-3');
+	</script>
+	<script>
+	window.GitpleConfig = { appCode: 'Ap6kfcOhDtdyHv2Rj2XbdwuDPDw43kcq' };
+	!function(){function e(){function e(){var e=t.contentDocument,a=e.createElement("script");a.type="text/javascript",a.async=!0,a.src=window[n]&&window[n].url?window[n].url+"/inapp-web/gitple-loader.js":"https://app.gitple.io/inapp-web/gitple-loader.js",a.charset="UTF-8",e.head&&e.head.appendChild(a)}var t=document.getElementById(a);t||((t=document.createElement("iframe")).id=a,t.style.display="none",t.style.width="0",t.style.height="0",t.addEventListener?t.addEventListener("load",e,!1):t.attachEvent?t.attachEvent("onload",e):t.onload=e,document.body.appendChild(t))}var t=window,n="GitpleConfig",a="gitple-loader-frame";if(!window.Gitple){document;var i=function(){i.ex&&i.ex(arguments)};i.q=[],i.ex=function(e){i.processApi?i.processApi.apply(void 0,e):i.q&&i.q.push(e)},window.Gitple=i,t.attachEvent?t.attachEvent("onload",e):t.addEventListener("load",e,!1)}}();
+	// Gitple('boot');
+	</script>
+
+
+<div id="pocket-extension-root"><div class="pocket-egasyq"></div></div><div id="pocket-extension-styles"><style data-emotion="pocket"></style></div><iframe id="gitple-loader-frame" style="display: none; width: 0px; height: 0px;"></iframe></body>
+</html>
